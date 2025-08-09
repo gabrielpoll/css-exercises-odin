@@ -37,6 +37,8 @@ body {
   font-size: 18px;
   margin-bottom: 5px;
   width: 440px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .text {
