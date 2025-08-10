@@ -8,12 +8,52 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  flex: 0 0 50px;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 8px;
 }
+
+ul {
+  list-style-type: none;
+  width: 150px;
+  padding-left: 8px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-body {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  flex: 0 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .sidebar {
@@ -22,8 +62,20 @@ body {
   box-sizing: border-box;
 }
 
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 500px;
+  height: 300px;
+  padding: 16px;
 }
