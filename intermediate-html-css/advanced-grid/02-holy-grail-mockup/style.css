@@ -93,6 +93,10 @@
   background-color: #bccbde;
   grid-column: 2 / 3;
   grid-row: 3 / 4;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-rows: repeat(2, 1fr) ;
+  gap: 18px;
 }
 
 .article p {
